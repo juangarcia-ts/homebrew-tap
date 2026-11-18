@@ -1,6 +1,6 @@
 cask "coconotch" do
-  version "0.2.1"
-  sha256 "2f612f972d4d499806ae407e99caf9e7f0ce7c7a4906070b5420531c1ceb7903"
+  version "0.3.0"
+  sha256 "b67e95819dd39b54961e0eea774d87c72736a2faf0c8bb8f5e981379858220b9"
 
   url "https://github.com/juangarcia-ts/coconotch/releases/download/v#{version}/CocoNotch-#{version}.zip"
   name "CocoNotch"
