@@ -8,7 +8,7 @@ cask "coconotch" do
   homepage "https://github.com/juangarcia-ts/coconotch"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "CocoNotch.app"
 
