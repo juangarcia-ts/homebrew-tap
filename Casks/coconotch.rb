@@ -1,6 +1,6 @@
 cask "coconotch" do
-  version "0.3.0"
-  sha256 "b67e95819dd39b54961e0eea774d87c72736a2faf0c8bb8f5e981379858220b9"
+  version "0.4.0"
+  sha256 "d0c91046aa8939327b923005e62ca9afc2bceaa7043908577478f56dd108ffc5"
 
   url "https://github.com/juangarcia-ts/coconotch/releases/download/v#{version}/CocoNotch-#{version}.zip"
   name "CocoNotch"
@@ -8,7 +8,7 @@ cask "coconotch" do
   homepage "https://github.com/juangarcia-ts/coconotch"
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "CocoNotch.app"
 
